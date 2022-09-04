@@ -1,0 +1,501 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>black_pink_white - examples</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+    html
+    { height: 100%;}
+
+    *
+    { margin: 0;
+      padding: 0;}
+
+    body
+    { font: normal .80em 'trebuchet ms', arial, sans-serif;
+      background: #F0EFE2;
+      color: #FFF;}
+
+    p
+    { padding: 0 0 20px 0;
+      line-height: 1.7em;}
+
+    img
+    { border: 0;}
+
+    h1, h2, h3, h4, h5, h6
+    { font: normal 175% 'century gothic', arial, sans-serif;
+      color: #FA057E;
+      margin: 0 0 15px 0;
+      padding: 15px 0 5px 0;}
+
+    h2
+    { font: normal 175% 'century gothic', arial, sans-serif;}
+
+    h4, h5, h6
+    { margin: 0;
+      padding: 0 0 5px 0;
+      font: normal 120% arial, sans-serif;}
+
+    h5, h6
+    { font: italic 95% arial, sans-serif;
+      padding: 0 0 15px 0;}
+
+    a, a:hover
+    { outline: none;
+      text-decoration: underline;
+      color: #FFF;}
+
+    a:hover
+    { text-decoration: none;}
+
+    .left
+    { float: left;
+      width: auto;
+      margin-right: 10px;}
+
+    .right
+    { float: right;
+      width: auto;
+      margin-left: 10px;}
+
+    .center
+    { display: block;
+      text-align: center;
+      margin: 20px auto;}
+
+    blockquote
+    { margin: 20px 0;
+      padding: 10px 20px 0 20px;
+      border: 1px solid #E5E5DB;
+      background: #FFF;}
+
+    ul
+    { margin: 2px 0 22px 17px;}
+
+    ul li
+    { list-style-type: circle;
+      margin: 0 0 6px 0;
+      padding: 0 0 4px 5px;}
+
+    ol
+    { margin: 8px 0 22px 20px;}
+
+    ol li
+    { margin: 0 0 11px 0;}
+
+    #main, #logo, #menubar, #site_content, #footer
+    { margin-left: auto;
+      margin-right: auto;}
+
+    #header
+    { background: transparent;
+      height: 202px;}
+
+    #logo
+    { width: 898px;
+      position: relative;
+      height: 148px;}
+
+    #logo #logo_text
+    { position: absolute;
+      top: 20px;
+      left: 0;}
+
+    #logo h1, #logo h2
+    { font: normal 300% 'century gothic', arial, sans-serif;
+      border-bottom: 0;
+      text-transform: none;
+      margin: 0;}
+
+    #logo_text h1, #logo_text h1 a, #logo_text h1 a:hover
+    { padding: 22px 0 0 0;
+      color: #000;
+      letter-spacing: -1px;
+      text-decoration: none;}
+
+    #logo_text h1 a .logo_colour
+    { color: #FA057E;}
+
+    #logo_text h1 a .logo_colour2
+    { color: #f5f5f5;}
+
+    #logo_text h2
+    { font-size: 100%;
+      padding: 4px 0 0 0;
+      color: #000;}
+
+    #menubar
+    { width: 898px;
+      height: 52px;
+      padding: 0;
+      background: #000;}
+
+    ul#menu, ul#menu li
+    { float: left;
+      margin: 0;
+      padding: 0;}
+
+    ul#menu li
+    { list-style: none;}
+
+    ul#menu li a
+    { letter-spacing: 0.1em;
+      font: normal 100% arial, sans-serif;
+      display: block;
+      float: left;
+      height: 17px;
+      margin: 10px 0 0 10px;
+      padding: 9px 26px 6px 26px;
+      text-align: center;
+      color: #FFF;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: transparent;}
+
+    ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+    { color: #FA057E;
+      background: #fff;}
+
+    #site_content
+    { width: 854px;
+      overflow: hidden;
+      margin: 0 auto 0 auto;
+      padding: 0 24px 20px 20px;
+      background: #000;}
+
+    .sidebar
+    { float: right;
+      width: 210px;
+      padding: 0 15px 20px 15px;}
+
+    .sidebar ul
+    { width: 198px;
+      padding: 4px 0 0 0;
+      margin: 4px 0 30px 0;}
+
+    .sidebar li
+    { list-style: none;
+      padding: 0 0 7px 0; }
+
+    .sidebar li a, .sidebar li a:hover
+    { padding: 0 0 0 40px;
+      display: block;}
+
+    .sidebar li a.selected
+    { color: #7E2451;
+      text-decoration: none;}
+
+    #content
+    { text-align: left;
+      float: left;
+      width: 595px;
+      padding: 0;}
+
+    #content ul
+    { margin: 2px 0 22px 0px;}
+
+    #content ul li
+    { list-style-type: none;
+      margin: 0 0 6px 0;
+      padding: 0 0 4px 25px;
+      line-height: 1.5em;}
+
+    #footer
+    { width: 898px;
+      font: normal 100% 'lucida sans unicode', arial, sans-serif;
+      height: 33px;
+      padding: 24px 0 5px 0;
+      text-align: center;
+      background: transparent;
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;}
+
+    #footer a
+    { color: #000;
+      text-decoration: none;}
+
+    #footer a:hover
+    { color: #000;
+      text-decoration: underline;}
+
+    .search
+    { color: #5D5D5D;
+      border: 1px solid #BBB;
+      width: 134px;
+      padding: 4px;
+      font: 100% arial, sans-serif;}
+
+    #colours
+    { height: 0px;
+      text-align: right;
+      padding: 66px 16px 0px 300px;}
+
+    .form_settings
+    { margin: 15px 0 0 0;}
+
+    .form_settings p
+    { padding: 0 0 4px 0;}
+
+    .form_settings span
+    { float: left;
+      width: 200px;
+      text-align: left;}
+
+    .form_settings input, .form_settings textarea
+    { padding: 5px;
+      width: 299px;
+      font: 100% arial;
+      border: 1px solid #E5E5DB;
+      background: #FFF;
+      color: #47433F;}
+
+    .form_settings .submit
+    { font: 100% arial;
+      border: 1px solid;
+      width: 99px;
+      margin: 0 0 0 212px;
+      height: 33px;
+      padding: 2px 0 3px 0;
+      cursor: pointer;
+      background: #000;
+      color: #FFF;}
+
+    .form_settings textarea, .form_settings select
+    { font: 100% arial;
+      width: 299px;}
+
+    .form_settings select
+    { width: 310px;}
+
+    .form_settings .checkbox
+    { margin: 4px 0;
+      padding: 0;
+      width: 14px;
+      border: 0;
+      background: none;}
+
+    .separator
+    { width: 100%;
+      height: 0;
+      border-top: 1px solid #D9D5CF;
+      border-bottom: 1px solid #FFF;
+      margin: 0 0 20px 0;}
+
+    table
+    { margin: 10px 0 30px 0;}
+
+    table tr th, table tr td
+    { background: #3B3B3B;
+      color: #FFF;
+      padding: 7px 4px;
+      text-align: left;}
+
+    table tr td
+    { background: #F0EFE2;
+      color: #47433F;
+      border-top: 1px solid #FFF;}
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo"></div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="/">Home</a></li>
+          <li class="selected"><a href="/examples/">Examples</a></li>
+          <li><a href="/page/">A Page</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <!-- insert the page content here -->
+        <h2>Tables</h2>
+        <p>Tables should be used to display data and not used for laying out your website:</p>
+        <table style="width:100%; border-spacing:0;">
+          <tr><th>Дата</th><th>Номер</th></tr>
+          <tr><td>30.06.2003</td><td>86-ФЗ</td></tr>
+          <tr><td>29.06.2004</td><td>58-ФЗ</td></tr>
+          <tr><td>03.10.2004</td><td>123-ФЗ</td></tr>
+          <tr><td>21.12.2004</td><td>172-ФЗ</td></tr>
+          <tr><td>29.12.2004</td><td>189-ФЗ</td></tr>
+          <tr><td>29.12.2004</td><td>191-ФЗ</td></tr>
+          <tr><td>07.03.2005</td><td>15-ФЗ</td></tr>
+          <tr><td>21.07.2005</td><td>111-ФЗ</td></tr>
+          <tr><td>22.07.2005</td><td>117-ФЗ</td></tr>
+          <tr><td>31.12.2005</td><td>206-ФЗ</td></tr>
+          <tr><td>17.04.2006</td><td>53-ФЗ</td></tr>
+          <tr><td>03.06.2006</td><td>73-ФЗ</td></tr>
+          <tr><td>30.06.2006</td><td>92-ФЗ</td></tr>
+          <tr><td>30.06.2006</td><td>93-ФЗ</td></tr>
+          <tr><td>27.07.2006</td><td>154-ФЗ</td></tr>
+          <tr><td>16.10.2006</td><td>160-ФЗ</td></tr>
+          <tr><td>04.12.2006</td><td>201-ФЗ</td></tr>
+          <tr><td>04.12.2006</td><td>204-ФЗ</td></tr>
+          <tr><td>18.12.2006</td><td>232-ФЗ</td></tr>
+          <tr><td>29.12.2006</td><td>260-ФЗ</td></tr>
+          <tr><td>29.12.2006</td><td>261-ФЗ</td></tr>
+          <tr><td>28.02.2007</td><td>21-ФЗ</td></tr>
+          <tr><td>10.05.2007</td><td>69-ФЗ</td></tr>
+          <tr><td>19.06.2007</td><td>102-ФЗ</td></tr>
+          <tr><td>24.07.2007</td><td>212-ФЗ</td></tr>
+          <tr><td>30.10.2007</td><td>240-ФЗ</td></tr>
+          <tr><td>08.11.2007</td><td>257-ФЗ</td></tr>
+          <tr><td>13.05.2008</td><td>66-ФЗ</td></tr>
+          <tr><td>13.05.2008</td><td>68-ФЗ</td></tr>
+          <tr><td>14.07.2008</td><td>118-ФЗ</td></tr>
+          <tr><td>22.07.2008</td><td>141-ФЗ</td></tr>
+          <tr><td>23.07.2008</td><td>160-ФЗ</td></tr>
+          <tr><td>25.12.2008</td><td>281-ФЗ</td></tr>
+          <tr><td>30.12.2008</td><td>311-ФЗ</td></tr>
+          <tr><td>14.03.2009</td><td>32-ФЗ</td></tr>
+          <tr><td>17.07.2009</td><td>145-ФЗ</td></tr>
+          <tr><td>17.07.2009</td><td>164-ФЗ</td></tr>
+          <tr><td>24.07.2009</td><td>209-ФЗ</td></tr>
+          <tr><td>25.12.2009</td><td>340-ФЗ</td></tr>
+          <tr><td>27.12.2009</td><td>343-ФЗ</td></tr>
+          <tr><td>27.12.2009</td><td>365-ФЗ</td></tr>
+          <tr><td>22.07.2010</td><td>167-ФЗ</td></tr>
+          <tr><td>29.12.2010</td><td>435-ФЗ</td></tr>
+          <tr><td>29.12.2010</td><td>442-ФЗ</td></tr>
+          <tr><td>20.03.2011</td><td>41-ФЗ</td></tr>
+          <tr><td>05.04.2011</td><td>56-ФЗ</td></tr>
+          <tr><td>14.06.2011</td><td>138-ФЗ</td></tr>
+          <tr><td>01.07.2011</td><td>169-ФЗ</td></tr>
+          <tr><td>11.07.2011</td><td>193-ФЗ</td></tr>
+          <tr><td>18.07.2011</td><td>214-ФЗ</td></tr>
+          <tr><td>18.07.2011</td><td>215-ФЗ</td></tr>
+          <tr><td>18.07.2011</td><td>219-ФЗ</td></tr>
+          <tr><td>18.07.2011</td><td>242-ФЗ</td></tr>
+          <tr><td>19.07.2011</td><td>246-ФЗ</td></tr>
+          <tr><td>21.07.2011</td><td>257-ФЗ</td></tr>
+          <tr><td>21.11.2011</td><td>331-ФЗ</td></tr>
+          <tr><td>30.11.2011</td><td>349-ФЗ</td></tr>
+          <tr><td>30.11.2011</td><td>365-ФЗ</td></tr>
+          <tr><td>06.12.2011</td><td>401-ФЗ</td></tr>
+          <tr><td>07.12.2011</td><td>417-ФЗ</td></tr>
+          <tr><td>08.12.2011</td><td>423-ФЗ</td></tr>
+          <tr><td>08.12.2011</td><td>424-ФЗ</td></tr>
+          <tr><td>12.12.2011</td><td>425-ФЗ</td></tr>
+          <tr><td>12.12.2011</td><td>427-ФЗ</td></tr>
+          <tr><td>25.06.2012</td><td>93-ФЗ</td></tr>
+          <tr><td>28.07.2012</td><td>133-ФЗ</td></tr>
+          <tr><td>30.12.2012</td><td>318-ФЗ</td></tr>
+          <tr><td>04.03.2013</td><td>21-ФЗ</td></tr>
+          <tr><td>05.04.2013</td><td>55-ФЗ</td></tr>
+          <tr><td>07.06.2013</td><td>123-ФЗ</td></tr>
+          <tr><td>02.07.2013</td><td>148-ФЗ</td></tr>
+          <tr><td>02.07.2013</td><td>185-ФЗ</td></tr>
+          <tr><td>23.07.2013</td><td>247-ФЗ</td></tr>
+          <tr><td>28.12.2013</td><td>396-ФЗ</td></tr>
+          <tr><td>28.12.2013</td><td>406-ФЗ</td></tr>
+          <tr><td>28.12.2013</td><td>411-ФЗ</td></tr>
+          <tr><td>28.12.2013</td><td>446-ФЗ</td></tr>
+          <tr><td>23.06.2014</td><td>171-ФЗ</td></tr>
+          <tr><td>21.07.2014</td><td>217-ФЗ</td></tr>
+          <tr><td>21.07.2014</td><td>224-ФЗ</td></tr>
+          <tr><td>21.07.2014</td><td>234-ФЗ</td></tr>
+          <tr><td>22.10.2014</td><td>315-ФЗ</td></tr>
+          <tr><td>29.12.2014</td><td>458-ФЗ</td></tr>
+          <tr><td>29.12.2014</td><td>485-ФЗ</td></tr>
+          <tr><td>29.12.2014</td><td>487-ФЗ</td></tr>
+          <tr><td>31.12.2014</td><td>499-ФЗ</td></tr>
+          <tr><td>08.03.2015</td><td>48-ФЗ</td></tr>
+          <tr><td>20.04.2015</td><td>102-ФЗ</td></tr>
+          <tr><td>29.06.2015</td><td>206-ФЗ</td></tr>
+          <tr><td>13.07.2015</td><td>213-ФЗ</td></tr>
+          <tr><td>13.07.2015</td><td>224-ФЗ</td></tr>
+          <tr><td>13.07.2015</td><td>233-ФЗ</td></tr>
+          <tr><td>13.07.2015</td><td>252-ФЗ</td></tr>
+          <tr><td>05.10.2015</td><td>277-ФЗ</td></tr>
+          <tr><td>28.11.2015</td><td>357-ФЗ</td></tr>
+          <tr><td>30.12.2015</td><td>431-ФЗ</td></tr>
+          <tr><td>30.12.2015</td><td>460-ФЗ</td></tr>
+          <tr><td>01.05.2016</td><td>119-ФЗ</td></tr>
+          <tr><td>23.05.2016</td><td>149-ФЗ</td></tr>
+          <tr><td>23.06.2016</td><td>206-ФЗ</td></tr>
+          <tr><td>23.06.2016</td><td>221-ФЗ</td></tr>
+          <tr><td>03.07.2016</td><td>334-ФЗ</td></tr>
+          <tr><td>03.07.2016</td><td>335-ФЗ</td></tr>
+          <tr><td>03.07.2016</td><td>336-ФЗ</td></tr>
+          <tr><td>03.07.2016</td><td>349-ФЗ</td></tr>
+          <tr><td>03.07.2016</td><td>354-ФЗ</td></tr>
+          <tr><td>03.07.2016</td><td>361-ФЗ</td></tr>
+          <tr><td>03.07.2016</td><td>365-ФЗ</td></tr>
+          <tr><td>03.07.2016</td><td>373-ФЗ</td></tr>
+          <tr><td>01.07.2017</td><td>141-ФЗ</td></tr>
+          <tr><td>01.07.2017</td><td>143-ФЗ</td></tr>
+          <tr><td>18.07.2017</td><td>177-ФЗ</td></tr>
+          <tr><td>29.07.2017</td><td>216-ФЗ</td></tr>
+          <tr><td>29.07.2017</td><td>217-ФЗ</td></tr>
+          <tr><td>29.07.2017</td><td>280-ФЗ</td></tr>
+          <tr><td>31.12.2017</td><td>506-ФЗ</td></tr>
+          <tr><td>31.12.2017</td><td>507-ФЗ</td></tr>
+          <tr><td>27.06.2018</td><td>164-ФЗ</td></tr>
+          <tr><td>29.06.2018</td><td>171-ФЗ</td></tr>
+          <tr><td>01.07.2018</td><td>175-ФЗ</td></tr>
+          <tr><td>03.07.2018</td><td>185-ФЗ</td></tr>
+          <tr><td>19.07.2018</td><td>212-ФЗ</td></tr>
+          <tr><td>03.08.2018</td><td>340-ФЗ</td></tr>
+          <tr><td>03.08.2018</td><td>341-ФЗ</td></tr>
+          <tr><td>03.08.2018</td><td>342-ФЗ</td></tr>
+          <tr><td>18.12.2018</td><td>471-ФЗ</td></tr>
+          <tr><td>25.12.2018</td><td>485-ФЗ</td></tr>
+          <tr><td>27.06.2019</td><td>151-ФЗ</td></tr>
+          <tr><td>02.08.2019</td><td>283-ФЗ</td></tr>
+          <tr><td>27.12.2019</td><td>477-ФЗ</td></tr>
+          <tr><td>27.12.2019</td><td>502-ФЗ</td></tr>
+          <tr><td>05.03.2020</td><td>11-П</td></tr>
+          <tr><td>18.03.2020</td><td>66-ФЗ</td></tr>
+          <tr><td>13.07.2020</td><td>194-ФЗ</td></tr>
+          <tr><td>13.07.2020</td><td>202-ФЗ</td></tr>
+          <tr><td>31.07.2020</td><td>269-ФЗ</td></tr>
+          <tr><td>15.10.2020</td><td>318-ФЗ</td></tr>
+          <tr><td>22.12.2020</td><td>435-ФЗ</td></tr>
+          <tr><td>30.12.2020</td><td>494-ФЗ</td></tr>
+          <tr><td>30.12.2020</td><td>505-ФЗ</td></tr>
+          <tr><td>05.04.2021</td><td>79-ФЗ</td></tr>
+          <tr><td>20.04.2021</td><td>92-ФЗ</td></tr>
+          <tr><td>30.04.2021</td><td>113-ФЗ</td></tr>
+          <tr><td>30.04.2021</td><td>120-ФЗ</td></tr>
+          <tr><td>11.06.2021</td><td>163-ФЗ</td></tr>
+          <tr><td>11.06.2021</td><td>170-ФЗ</td></tr>
+          <tr><td>11.06.2021</td><td>209-ФЗ</td></tr>
+          <tr><td>28.06.2021</td><td>226-ФЗ</td></tr>
+          <tr><td>01.07.2021</td><td>273-ФЗ</td></tr>
+          <tr><td>01.07.2021</td><td>276-ФЗ</td></tr>
+          <tr><td>02.07.2021</td><td>299-ФЗ</td></tr>
+          <tr><td>02.07.2021</td><td>300-ФЗ</td></tr>
+          <tr><td>02.07.2021</td><td>302-ФЗ</td></tr>
+          <tr><td>06.12.2021</td><td>407-ФЗ</td></tr>
+          <tr><td>06.12.2021</td><td>408-ФЗ</td></tr>
+          <tr><td>30.12.2021</td><td>436-ФЗ</td></tr>
+          <tr><td>30.12.2021</td><td>445-ФЗ</td></tr>
+          <tr><td>30.12.2021</td><td>449-ФЗ</td></tr>
+          <tr><td>30.12.2021</td><td>467-ФЗ</td></tr>
+          <tr><td>30.12.2021</td><td>475-ФЗ</td></tr>
+          <tr><td>30.12.2021</td><td>476-ФЗ</td></tr>
+          <tr><td>30.12.2021</td><td>478-ФЗ</td></tr>
+          <tr><td>30.12.2021</td><td>493-ФЗ</td></tr>
+          <tr><td>16.02.2022</td><td>9-ФЗ</td></tr>
+          <tr><td>01.05.2022</td><td>123-ФЗ</td></tr>
+          <tr><td>28.05.2022</td><td>144-ФЗ</td></tr>
+          <tr><td>14.07.2022</td><td>284-ФЗ</td></tr>
+          <tr><td>14.07.2022</td><td>312-ФЗ</td></tr>
+        </table>
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; Деревянко Александр
+    </div>
+  </div>
+</body>
+</html>
