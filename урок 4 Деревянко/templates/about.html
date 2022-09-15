@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo"></div>
+{% block menu %}
+	{% include "inc-menu.html" %}
+{% endblock %}
+    </div>
+    <div id="site_content">
+	  Тут что-то будет
+    </div>
+    <div id="footer">
+      Copyright &copy; Деревянко Александр
+    </div>
+  </div>
+</body>
+{% endblock %}
