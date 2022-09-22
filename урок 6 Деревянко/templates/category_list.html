@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo"></div>
+{% block menu %}
+	{% include "inc-menu.html" %}
+{% endblock %}
+    </div>
+    <div id="site_content">
+    <a href="/">назад</a>
+
+    <h1>Список категорий</h1>
+    <ul>
+
+        {% for item in objects_list %}
+        <li>
+            {{item.name}} <span>Количество курсов: {{item.course_count()}}</span>
+        </li>
+        {% endfor %}
+    </ul>
+
+	<div>
+		<li><a href="/courses-list/">Список курсов</a></li>
+		<li><a href="/create-course/">Создать курс</a></li>
+	</div>
+    </div>
+    <div id="footer">
+      Copyright &copy; Деревянко Александр
+    </div>
+  </div>
+</body>
+{% endblock %}

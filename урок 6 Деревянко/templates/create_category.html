@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo"></div>
+{% block menu %}
+	{% include "inc-menu.html" %}
+{% endblock %}
+    </div>
+    <div id="site_content">
+      <h1>Создание категории</h1>
+      <form method="post">
+          <input type="text" name="name" placeholder="Название">
+          <button type="submit">Сохранить и вернуться на главную</button>
+      </form>
+    </div>
+    <div id="footer">
+      Copyright &copy; Деревянко Александр
+    </div>
+  </div>
+</body>
+{% endblock %}
