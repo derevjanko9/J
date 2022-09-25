@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo"></div>
+{% block menu %}
+	{% include "inc-menu.html" %}
+{% endblock %}
+    </div>
+    <div id="site_content">
+    <div>
+        <a href="/courses-list/?id={{id}}">назад</a>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <h1>Создание курса для категории "{{name}}"</h1>
+        <form method="post">
+            <input type="text" name="name" placeholder="Название">
+            <button type="submit">Сохранить и вернуться к списку курсов</button>
+        </form>
+    </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; Деревянко Александр
+    </div>
+  </div>
+</body>
+{% endblock %}
