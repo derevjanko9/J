@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo"></div>
+{% block menu %}
+	{% include "inc-menu.html" %}
+{% endblock %}
+    </div>
+    <div id="site_content">
+	<div>
+		<li>
+			<a href="/student-list/">Список студентов</a>
+		</li>
+	</div>
+    <div>
+        <h1>Создание студента</h1>
+        <form method="post">
+            <input type="text" name="name" placeholder="Имя">
+            <button type="submit">Сохранить</button>
+        </form>
+    </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; Деревянко Александр
+    </div>
+  </div>
+</body>
+{% endblock %}
